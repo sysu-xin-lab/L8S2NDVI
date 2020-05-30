@@ -5,8 +5,8 @@ The used data are publicly accessed via MS OneDrive: https://1drv.ms/u/s!AuRyYwt
 
 Attached file namely "data.mat" includes the high resolution Sentinel-2(hr1,hr2,hr3) and low resolution landsat-8(lr1,lr2,lr3) images. The pre-processing of cloudmask and gapfilling has been conducted in MATLAB. Surface reflectences for all images ranges from 0~10000. The variables R and refCode can be used to  reconstruct the Geotiff file using the following matlab code:
 
-geotiffwrite('Sentinel_t1.tif',hr1,R,'CoordRefSysCode',refCode);
-geotiffwrite('Landsat_t2.tif',;lr2,R,'CoordRefSysCode',refCode);
+    geotiffwrite('Sentinel_t1.tif',hr1,R,'CoordRefSysCode',refCode);
+    geotiffwrite('Landsat_t2.tif',;lr2,R,'CoordRefSysCode',refCode);
 
 Images in the "data.mat" have a size of 1600x1600. A subset was used for train and test, i.e, data[4:1596,4:1596,:]
 
