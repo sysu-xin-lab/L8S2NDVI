@@ -1,5 +1,7 @@
 # L8S2NDVI
 This repository contains codes for spatiotemproal fusion of Sentinel-Landsat NDVI using ASRCNN
+
+For more details, see: 
 ```
 @ARTICLE{9125996,
   author={Ao, Zurui and Sun, Ying and Xin, Qinchuan},
