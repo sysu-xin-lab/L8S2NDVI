@@ -1,5 +1,19 @@
 # L8S2NDVI
-Fusion of Sentinel-Landsat NDVI using ASRCNN
+This repository contains codes for spatiotemproal fusion of Sentinel-Landsat NDVI using ASRCNN
+```
+@ARTICLE{9125996,
+  author={Ao, Zurui and Sun, Ying and Xin, Qinchuan},
+  journal={IEEE Geoscience and Remote Sensing Letters}, 
+  title={Constructing 10-m NDVI Time Series From Landsat 8 and Sentinel 2 Images Using Convolutional Neural Networks}, 
+  year={2021},
+  volume={18},
+  number={8},
+  pages={1461-1465},
+  doi={10.1109/LGRS.2020.3003322}}
+```
+
+Data:
+--------
 
 The used data are publicly accessed via MS OneDrive: https://1drv.ms/u/s!AuRyYwtUQzjOhzQ8Xz3hiApcFNff?e=i6e5FW
 
