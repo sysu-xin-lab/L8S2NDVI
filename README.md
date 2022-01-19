@@ -11,7 +11,8 @@ For more details, see:
   volume={18},
   number={8},
   pages={1461-1465},
-  doi={10.1109/LGRS.2020.3003322}}
+  doi={10.1109/LGRS.2020.3003322}
+  }
 ```
 
 Data:
